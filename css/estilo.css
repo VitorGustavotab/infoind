@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#cabecalho{
+    background-color:rgb(21, 189, 21);
+    padding: 2%;
+    text-align: center;
+}
+#menu li{
+    display: inline-block;
+    margin: 0 0 0 15px; 
+    list-style: none;
+}
+#menu ul{
+    padding-top: 2%;
+}
+
+#cabecalho li:hover{
+    background-color: aliceblue;
+  
+}
+#cabecalho h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:50px ;
+    color:white;
+}
+#menu a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#info{
+    background-image: linear-gradient(green, rgb(221, 40, 16));
+    margin: 5%;
+    padding: 4%;
+    text-align: center;
+    border-radius: 20px;
+}
+#info h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:40px;
+}
+.btn{
+    display: inline-block;
+    padding: 16px 42px;
+    border-radius: 3px;
+    background: #FC6E51;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: .08em;
+    margin: 10px auto;    
+}
+
+#info p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+#sobre{
+    background-color: blueviolet;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 5%;
+    margin: 2%;
+    border-radius: 20px;
+}
+#sobre h2{
+    font-size: 60px;
+    padding-bottom: 10%;
+}
+#sobre p{
+    font-size: 25px;
+}
+
+h2 {
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+}
+/*TABELA*/
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.tabela th, 
+.tabela td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.tabela th {
+    background-color: #2c3e50;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.tabela tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabela tr:hover {
+    background-color: #f1f1f1;
+    transition: 0.2s;
+}
+
+#programa{
+    margin: 5%;
+}
+#palestrantes h2, #programa h2{
+    text-align: center;
+    font-size: 50px;
+}
+/*----------------------------------------------------------------------*/
+.grid {
+    display: flex;
+    justify-content: center; /* centraliza na página */
+    gap: 100px; /* espaço entre os artigos */
+    flex-wrap: wrap; /* quebra linha se faltar espaço */
+}
+
+.grid article {
+    width: 250px;
+    padding: 20px;
+    border-left: 5px solid green;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* imagens */
+.grid article img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%; /* deixa redonda */
+    margin-bottom: 10px;
+}
+
+/* nome */
+.grid article h3 {
+    margin: 10px 0 5px;
+}
+
+/* descrição */
+.grid article p {
+    font-size: 14px;
+    color: #555;
+}
+/*---------------------------------------------------*/
+
+/* seção inscrição */
+#inscricao {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form-inscricao {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-inscricao input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.form-inscricao input:focus {
+    border-color: #2c3e50;
+    outline: none;
+}
+
+/* botão */
+.btn {
+    padding: 12px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #1a252f;
+}
+
+/* footer */
+footer {
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: #1abc9c;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
